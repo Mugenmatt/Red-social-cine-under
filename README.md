@@ -1,3 +1,3 @@
-## E-Commerce de Ropa
+## Red Social de cine under
 
 Integrantes: Alan Lopez Rossi, German Piaggio, Matias Godoy
