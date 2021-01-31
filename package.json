@@ -1,0 +1,32 @@
+{
+  "name": "red-social-peliculas",
+  "version": "1.0.0",
+  "description": "Social Network for people that work/stydy in the audiovisual field",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mugenmatt/Red-social-cine-under.git"
+  },
+  "keywords": [
+    "red",
+    "social",
+    "cinema",
+    "cine",
+    "under"
+  ],
+  "author": "Alan German Matias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mugenmatt/Red-social-cine-under/issues"
+  },
+  "homepage": "https://github.com/Mugenmatt/Red-social-cine-under#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

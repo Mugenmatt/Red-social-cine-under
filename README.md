@@ -1,3 +1,2 @@
-## E-Commerce de Ropa
-
-Integrantes: Alan Lopez Rossi, German Piaggio, Matias Godoy
+## Social Network for people that work/stydy in the audiovisual field
+Creators: Alan Lopez Rossi, German Piaggio, Matias Godoy
