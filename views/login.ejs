@@ -13,7 +13,6 @@
 
     <%- include('partials/header') %>
 
-    <div class="loginContainer">
         <div class="loginBox">
             <h3 class="loginTitle">Inicio de sesión</h3>
             <form action="" method="POST" class="login">
@@ -27,9 +26,15 @@
                 <input type="password" class="password" id="password">
 
                 <input type="button" value="Iniciar sesión" class="loginBtn">
+
             </form>
+            
+        <a href="#" class="alreadyHaveAccount">¿Olvidaste tu contraseña?</a>
+
+        <p class="notHaveAccount">¿No tenés una cuenta? <a href="#" class="notHaveAccountAnchor">Registrate</a></p>
+
         </div>
-    </div>
+
 
 
     <%- include('partials/footer') %>
