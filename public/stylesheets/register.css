@@ -1,0 +1,74 @@
+.registerBox {
+    width: 40%;
+    padding: 1.6em;
+    margin: 2em auto;
+    background-color: #31465C;
+    border: 2px solid #40bcf100;
+    border-radius: 10px;
+}
+
+.registerBox:hover {
+    border: 2px solid #40BDF1;
+}
+
+.register {
+    width: 80%;
+    margin: auto;
+}
+
+.registerTitle {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+}
+
+.nameLabel, .lastNameLabel, .userNameLabel, .emailLabel, .ageLabel, .countryLabel, .passwordLabel, .confirmLabel {
+    display: block;
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 1.8em;
+}
+
+.name, .lastName, .userName, .email, .age, .country, .password, .confirm {
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+
+#name, #lastName, #userName, #email, #age, #password, #confirm {
+    font-size: 1.4em;
+    color: #40BDF1;
+}
+
+.name, .lastName, .userName, .email, .age, .country, .password, .confirm:hover {
+    cursor: pointer;
+}
+
+hr {
+    display: none;
+}
+
+.registerBtn {
+    padding: 1.3em;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.registerBtn:hover {
+    background-color: #40BDF1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.country {
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    color: #000;
+    font-size: 1.4em;
+}

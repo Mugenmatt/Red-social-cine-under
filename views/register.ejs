@@ -6,14 +6,55 @@
     <%- include('partials/headMetas') %>
     <title>Registro | Social Network of Movies</title>
     <%- include('partials/headLinks') %>
-
+    <link rel="stylesheet" href="/stylesheets/register.css">
 </head>
 
 <body>
 
     <%- include('partials/header') %>
 
+    <div class="registerBox">
+        <h3 class="registerTitle">Registro</h3>
+        <form action="" method="POST" class="register">
 
+            <label class="nameLabel" for="name">Nombre</label>
+            <input type="text" class="name" id="name" name="name" required>
+            <hr>
+
+            <label class="lastNameLabel" for="lastName">Apellido</label>
+            <input type="text" class="lastName" id="lastName" name="lastName" required>
+            <hr>
+
+            <label class="userNameLabel" for="userName">Nombre de usuario</label>
+            <input type="text" class="userName" id="userName" name="userName" required>
+            <hr>
+
+            <label class="emailLabel" for="email">Email</label>
+            <input type="email" class="email" id="email" name="name" required>
+            <hr>
+
+            <label class="ageLabel" for="age">Edad</label>
+            <input type="number" min="17" max="105" class="age" id="age" name="age" required>
+            <hr>
+
+            <label class="countryLabel" for="country">País</label>
+            <select class="country" id="country" name="country">
+                <option value="argentina">Argentina</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+
+            <label class="passwordLabel" for="password">Contraseña</label>
+            <input type="password" class="password" id="password" name="password" required>
+            <hr>
+
+            <label class="confirmLabel" for="confirm">Confirmación de contraseña</label>
+            <input type="password" class="confirm" id="confirm" name="confirm" required>
+
+            <input type="button" value="Registrarme" class="registerBtn">
+
+        </form>
+    </div>
     <%- include('partials/footer') %>
 
     <%- include('partials/jsUnderHtml') %>

@@ -1,0 +1,64 @@
+.loginContainer {
+    height: 73vh;
+}
+
+.loginBox {
+    width: 40%;
+    padding: 1.6em;
+    margin: 2em auto;
+    background-color: #31465C;
+    border: 2px solid #40bcf100;
+    border-radius: 10px;
+}
+
+.loginBox:hover {
+    border: 2px solid #40BDF1;
+}
+
+.login {
+    width: 80%;
+    margin: auto;
+}
+
+.loginTitle {
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+}
+
+.emailLabel, .passwordLabel {
+    display: block;
+    text-align: center;
+    margin-top: 2.5em;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+#email, #password {
+    font-size: 1.4em;
+    color: #40BDF1;
+}
+
+#password {
+    margin-bottom: 3em;
+}
+
+hr {
+    display: none;
+}
+
+.loginBtn {
+    padding: 1.3em;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+.loginBtn:hover {
+    background-color: #40BDF1;
+    color: #fff;
+    cursor: pointer;
+}

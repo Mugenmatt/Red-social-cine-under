@@ -12,6 +12,8 @@ app.listen(port, () => {
 
 // REQUIRE ROUTES
 const indexRouter = require('./routes/indexRouter');
+const registerRouter = require('./routes/registerRouter');
+const loginRouter = require('./routes/loginRouter');
 
 // VIEW ENGINE SETUP
 app.set('views', path.join(__dirname, 'views'));
@@ -27,3 +29,7 @@ app.use(methodOverride('_method'));
 
 // USE ROUTES
 app.get('/', indexRouter);
+
+app.get('/register', registerRouter);
+
+app.get('/login', loginRouter);
