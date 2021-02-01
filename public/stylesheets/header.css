@@ -1,0 +1,280 @@
+header {
+        width: 100%;
+        padding: 0.8em;
+        background-color: #273645;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.logo {
+    background-color: rgba(64, 189, 241, 1);
+    font-size: 1.2em;
+}
+
+.categoriesBox {
+    width: 30%;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.categoryLink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.categoryLink:hover {
+    color: #40BDF1;
+    cursor: pointer;
+}
+
+.category {
+    list-style: none;
+    font-size: 1em;
+}
+
+.userAndSearch {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------- SEARCH BAR --------------------------- */
+
+.searchBarBox {
+    background: #151515;
+    position: relative;
+    text-align: center;
+}
+
+.searchBarBox input {
+    background: #222;
+    background: -webkit-linear-gradient(#333, #222);	
+    background: -moz-linear-gradient(#333, #222);	
+    background: -o-linear-gradient(#333, #222);	
+    background: -ms-linear-gradient(#333, #222);	
+    background: linear-gradient(#333, #222);	
+    border: 1px solid #444;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 2px 0 #000;
+    color: #888;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 42px;
+    margin: 0;
+    padding: 0 10px;
+    text-shadow: 0 -1px 0 #000;
+    width: 200px;
+}
+
+.searchBarBox input::-webkit-input-placeholder {
+color: #888;
+}
+
+.searchBarBox input:-moz-placeholder {
+color: #888;
+}
+
+.searchBarBox input:focus {
+    -webkit-animation: glow 800ms ease-out infinite alternate;
+    -moz-animation: glow 800ms ease-out infinite alternate;
+    -o-animation: glow 800ms ease-out infinite alternate;
+    -ms-animation: glow 800ms ease-out infinite alternate;
+    animation: glow 800ms ease-out infinite alternate;
+    background: #222922;
+    background: -webkit-linear-gradient(#333933, #222922);
+    background: -moz-linear-gradient(#333933, #222922);
+    background: -o-linear-gradient(#333933, #222922);
+    background: -ms-linear-gradient(#333933, #222922);
+    background: linear-gradient(#333933, #222922);
+    border-color: #40BDF1;
+    box-shadow: 0 0 5px rgba(64, 189, 241, .2), inset 0 0 5px rgba(64, 189, 241, .1), 0 2px 0 #000;
+    color: #efe;
+    outline: none;
+}
+
+.searchBarBox input:focus::-webkit-input-placeholder { 
+    color: #efe;
+}
+
+.searchBarBox input:focus:-moz-placeholder {
+    color: #efe;
+}
+
+.searchBarBox button {
+    background: #222;
+    background: -webkit-linear-gradient(#333, #222);
+    background: -moz-linear-gradient(#333, #222);
+    background: -o-linear-gradient(#333, #222);
+    background: -ms-linear-gradient(#333, #222);
+    background: linear-gradient(#333, #222);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 1px solid #444;
+    border-left-color: #000;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 0 #000;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-shadow: 0 -1px 0 #000;
+    width: 80px;
+}	
+
+.searchBarBox button:hover,
+.searchBarBox button:focus {
+    background: #292929;
+    background: -webkit-linear-gradient(#393939, #292929);	
+    background: -moz-linear-gradient(#393939, #292929);	
+    background: -o-linear-gradient(#393939, #292929);	
+    background: -ms-linear-gradient(#393939, #292929);	
+    background: linear-gradient(#393939, #292929);
+    color: #40BDF1;
+    outline: none;
+}
+
+.searchBarBox button:active {
+    background: #292929;
+    background: -webkit-linear-gradient(#393939, #292929);
+    background: -moz-linear-gradient(#393939, #292929);
+    background: -o-linear-gradient(#393939, #292929);
+    background: -ms-linear-gradient(#393939, #292929);
+    background: linear-gradient(#393939, #292929);
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+    top: 1px;
+}
+
+@-webkit-keyframes glow {
+    0% {
+        border-color: rgba(64, 189, 241, .5);
+        box-shadow: 0 0 5px rgba(64, 189, 241, .2), inset 0 0 5px rgba(64, 189, 241, .1), 0 2px 0 #000;
+    }	
+    100% {
+        border-color: rgba(64, 189, 241, 1);
+        box-shadow: 0 0 20px rgba(64, 189, 241, .6), inset 0 0 10px rgba(64, 189, 241, .4), 0 2px 0 #000;
+    }
+}
+
+@-moz-keyframes glow {
+    0% {
+        border-color: rgba(64, 189, 241, .5);
+        box-shadow: 0 0 5px rgba(64, 189, 241, .2), inset 0 0 5pxrgba(64, 189, 241, .1), 0 2px 0 #000;
+    }	
+    100% {
+        border-color: rgba(64, 189, 241, 1);
+        box-shadow: 0 0 20px rgba(64, 189, 241, .6), inset 0 0 10px rgba(64, 189, 241, .4), 0 2px 0 #000;
+    }
+}
+
+@-o-keyframes glow {
+    0% {
+        border-color: rgba(64, 189, 241, .5);
+        box-shadow: 0 0 5px rgba(64, 189, 241, .2), inset 0 0 5px rgba(64, 189, 241, .1), 0 2px 0 #000;
+    }	
+    100% {
+        border-color: rgba(64, 189, 241, 1);
+        box-shadow: 0 0 20px rgba(64, 189, 241, .6), inset 0 0 10px rgba(64, 189, 241, .4), 0 2px 0 #000;
+    }
+}
+
+@-ms-keyframes glow {
+    0% {
+        border-color: rgba(64, 189, 241, .5);
+        box-shadow: 0 0 5px rgba(64, 189, 241, .2), inset 0 0 5px rgba(64, 189, 241, .1), 0 2px 0 #000;
+    }	
+    100% {
+        border-color: rgba(64, 189, 241, 1);
+        box-shadow: 0 0 20px rgba(64, 189, 241, .6), inset 0 0 10px rgba(64, 189, 241, .4), 0 2px 0 #000;
+    }
+}
+
+@keyframes glow {
+    0% {
+        border-color: rgba(64, 189, 241, .5);
+        box-shadow: 0 0 5px rgba(64, 189, 241, .2), inset 0 0 5px rgba(64, 189, 241, .1), 0 2px 0 #000;
+    }	
+    100% {
+        border-color: rgba(64, 189, 241, 1);
+        box-shadow: 0 0 20px rgba(64, 189, 241, .6), inset 0 0 10px rgba(64, 189, 241, .4), 0 2px 0 #000;
+    }
+}
+
+/* --------------------------- USER DROP DOWN --------------------------- */
+
+.dropDown {
+    position: relative;
+    display: block;
+}
+
+    .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    width: 100%;
+    background-color: #273645;
+    z-index: 100;
+    }
+
+    .dropDown:hover .dropdownContent {
+    display: block;
+}
+
+.dropBtn {
+    background-color: #273645;
+    color: white;
+    padding: .6em 1em;
+    font-size: 1em;
+    border: none;
+    }
+
+.dropDown {
+position: relative;
+display: inline-block;
+}
+
+.dropdownContent {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdownContent a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdownContent a:hover {background-color: #ddd;}
+
+.dropDown:hover .dropdownContent {display: block;}
+
+.dropDown:hover .dropBtn {
+    background-color: rgba(64, 189, 241, 1);
+    cursor: pointer;
+}
