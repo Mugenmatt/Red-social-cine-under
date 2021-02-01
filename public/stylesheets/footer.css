@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    padding: 0.7em;
+    background-color: #141D25;
+    position: absolute;
+    bottom: 0;
+}
+
+.logoFooter {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.termFaq {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.termsAndFaq {
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 0.7em;
+}
